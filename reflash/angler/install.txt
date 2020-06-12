@@ -1,4 +1,8 @@
 <p>Then run:<br/>
 <tt><pre>
+unzip angler-pq2a.190301.002-factory-76c174de.zip
+cd angler-pq2a.190301.002/
 ./flash-all.sh
 </pre></tt></p>
+<p>If you're running Windows, use <i>flash-all.bat</i> instead of
+<i>flash-all.sh</i>.</p>
