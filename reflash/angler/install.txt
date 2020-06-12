@@ -1,0 +1,4 @@
+<p>Then run:<br/>
+<tt><pre>
+./flash-all.sh
+</pre></tt></p>

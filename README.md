@@ -1,3 +1,23 @@
+# The Idea
+
+The goal of this project is to bring as many used devices as possible back to being useful - ideally with an OS build that is still maintained.
+
+For particularly interesting devices (devices donated frequently and devices that are easy to work on), we will provide custom builds that already include the educational software we want.
+
+For other devices, we keep a database of external projects that support them (e.g. LineageOS, FreeMobileOS, ReactOS, /e/), and provide links to their firmware images as well as apk files containing important apps to be installed after the OS is installed (same ones that are already present in our custom builds).
+
+# Code
+
+The reflash directory contains a set of php scripts, an initial database etc.
+
+Those scripts don't provide a fancy UI, and are more of a proof of concept than a real world thing. It takes a few shortcuts that usually shouldn't be taken, sometimes a deadline is more important than usual best practices.
+
+To use them, just drop them into a "reflash" directory on a web server and run init.sh to initialize the database. (The script assumes mariadb or mysql is set up with a "root" account, the way it is in e.g. OpenMandriva. You may have to edit the script a little in other setups. You're certainly encouraged to change the hardcoded database password.)
+
+To add a local build, just place it in a subdirectory named after the device's codename -- the scripts will offer the files for download and -- if that file exists -- embed a file called `install.txt` into the documentation page.
+
+As a user, just visit the reflash directory on the web server and follow its instructions.
+
 # Hardware
 
 This document describes what donated hardware is best suited for our purposes.

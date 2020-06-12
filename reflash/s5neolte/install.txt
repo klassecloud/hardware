@@ -1,0 +1,8 @@
+<p>Then run:<br/>
+<tt><pre>
+heimdall flash --RECOVERY recovery.img --no-reboot
+heimdall flash --SYSTEM system.img --no-reboot
+heimdall flash --CACHE cache.img --no-reboot
+heimdall flash --USERDATA userdata.img --no-reboot
+heimdall flash --BOOT boot.img
+</pre></tt></p>
